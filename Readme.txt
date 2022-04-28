@@ -2,6 +2,13 @@
 -git init
 -git add 
 -git commit -m "Commit inicial"
-git remote add https://github.com/NicoLorenzo1/Hola-Mundo.git
+-git remote add origin https://github.com/NicoLorenzo1/Hola-Mundo.git
 -git pull origin main --allow-unrelated-histories
-git branch --set-upstream-to=origin/main main
+-git branch --set-upstream-to=origin/main main
+-git push https://github.com/NicoLorenzo1/Hola-Mundo.git
+-git clone https://github.com/NicoLorenzo1/Hola-Mundo.git
+-git branch dev
+-git checkout dev
+-git commit -m "Cambios en la rama"
+-git push https://github.com/NicoLorenzo1/Hola-Mundo.git
+-git branch -d dev
